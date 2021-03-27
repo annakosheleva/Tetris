@@ -1,6 +1,10 @@
 * {
     box-sizing: border-box;
-    font-family: Arial;
+    font-family: 'Courier New', Courier, monospace
+}
+
+body {
+    background-color: #9bbbee;
 }
 
 .main {
@@ -9,7 +13,7 @@
     overflow: hidden;
     width: 500px;
     height: 700px;
-    border: 1px solid #000;
+    border: 3px solid #042d6f;
 }
 
 .tetris {
@@ -33,11 +37,12 @@
     background-color: #1e488c;
 }
 
-/*input {
+input {
     display: block;
     margin: 30px auto;
     font-size: 30px;
     padding: 10px;
+    border: 3px solid #042d6f;
 }
 
 .controls {
@@ -77,6 +82,8 @@
 
 .button:hover {
     border-radius: 40px;
+    background-color: #9bbbee;
+
 }
 
 .overlay {
@@ -87,4 +94,4 @@
     height: 100%;
     z-index: 2;
     background-color: #1e488c;
-}*/
+}
