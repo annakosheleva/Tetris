@@ -1,2 +1,4 @@
 # Tetris
- (game)
+Game
+
+https://annakosheleva.github.io/Tetris/
